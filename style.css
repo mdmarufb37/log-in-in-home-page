@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    padding: 0 7%;
+}
+
+/* .w-50{
+    width: 50%;
+} */
+
+
+.btn{
+    display: inline-block;
+    background: orange;
+    padding: 11px 15px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(images/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.header .container .logo h2{
+    color: green;
+}
+
+.header .container .navbar a{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header .container .navbar a:hover{
+    color: orange;
+}
+
+.header .container .nav-src input{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid yellow;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.what .text-box span{
+    color: orange;
+}
+
+.what{
+    margin-top: 110px;
+}
+
+.what .container .text-box{
+    flex: 0 1 500px;
+}
+
+.what .container .text-box h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.what .container .text-box p{
+    margin: 15px 0;
+    color: blue;
+}
+
+
+.gap{
+    gap: 20px;
+}
+
+.what .container .text-box .btn{
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+
+
+
+.what .container .form-box{
+    flex: 0 1 500px;
+}
+
+.what .container .form-box form{
+    background: rgba(0,0,0,.3);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.what .container .form-box form h2{
+    background: orange;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 8px 0;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.what .container .form-box form input{
+    display: block;
+    padding: 10px;
+    margin: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    border-bottom: 1px solid red;
+}
+
+.what .container .form-box form button{
+    width: 100%;
+    background: #fff;
+    color: orange;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+.what .container .form-box form p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.what .container .login-are{
+    text-align: center;
+}
+
+.what .container .login-are h3{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.what .container .login-are a{
+    margin: 0 20px;
+    font-size: 40px;
+}
+
+.footer{
+    background-color: navy;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer h1{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+
+
+
+
